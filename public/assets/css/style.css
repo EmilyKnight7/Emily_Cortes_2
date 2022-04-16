@@ -1,0 +1,236 @@
+
+/*mobile first*/
+/*I used iPhone XR (414 x 896) on Chrome Developer tools to create this version*/
+body{
+    font-family: 'Mulish', 'sans-serif';
+    background-color: #F7F8FC;
+}
+
+.initial-icons{
+    margin-left:200px;
+}
+
+.navbar{
+    width: 425px;
+}
+.graphic-legend{
+    margin-left: 260px;
+}
+.photo {
+    transform: scale(1.1);
+}
+
+.border-bottom{
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.subhead {
+    font-size: 12px;
+}
+
+.legend1{
+    margin-left: 260px;
+}
+
+.add-icon{
+    padding-left:110px;
+}
+.status-task{
+    padding-left: 135px;
+}
+
+.status-task-new{
+    padding-left: 108px;
+}
+
+.status-task-default{
+    padding-left: 127px;
+}
+
+.longdivider{
+    width:100%;
+    margin-top: -30px;
+}
+
+.text-table{
+    font-size: 14px;
+}
+
+.nav-item{
+    font-size:16px;
+}
+
+#section1{
+    width: 403px;
+    margin-left: -10px;
+}
+
+#section2{
+    width: 430px;
+    margin-left: -10px;
+}
+
+#section3{
+    width: 449px;
+    margin-left: -21px;
+}
+
+.graph-mobile{
+    width: 360px;
+    height: 250px;
+    margin-bottom: 40px;
+    margin-left: -10px;
+}
+
+#table2{
+    width: 402px;
+    margin-left: -10px;
+}
+
+#accordion{
+    margin-left: 10px;
+    margin-right:4px;
+}
+
+/*desktop here*/
+/*dimension for desktop 1588 x1058 */
+@media screen and (min-width: 650px) {
+
+    #sidebar{
+        position: fixed;
+        height:120%;
+        width:300px;
+        margin-top:-65px;
+        margin-left: -30px;
+    }
+
+   #nav-options{
+       margin-top: -232px;
+    }
+    #logo{
+       margin-top:-1065px;
+       margin-left:20px;
+    } 
+
+    #navbarsExample04{
+        margin-left:-190px;
+        margin-top:-300px;
+   }
+
+    #icons-top{
+        margin-left:1340px;
+    }
+
+    .nav-item{
+        margin-left:30px;
+    }
+
+    #section1{
+        padding-left: 300px;
+        margin-top: -40px;
+        width: auto;
+    }
+
+    #section2{
+        margin-left:290px;
+        display:flex;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    #section3{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left:285px;
+        width:auto;
+        
+    }
+
+    #unresolved-tickets{
+        width: 48%;
+        margin-bottom:40px;
+        margin-top:-100px;
+        height: 50%;
+        
+    }
+
+    #tasks{
+        width: 48%;
+        height:342px;
+        
+    }
+    #stats1{
+        height: 119px;
+        
+    }
+    #profile{
+        margin-left:5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .legend1{
+        margin-left:700px;
+        margin-bottom: -40px;
+        margin-top: -30px;
+    }
+
+    .legend2{
+        margin-bottom: -40px;
+        margin-top: -30px;
+    }
+
+    .number{
+        font-size: 30px;
+    }
+
+    #table1 {
+        margin-right: -5px;
+        margin-top: 10px;
+    }
+    #table2 {
+        width: 90%;
+    }
+
+    .sec-name-2{
+        margin-left: 22px;
+    }
+
+    /*boxes in section1*/
+    .box{
+        margin-left:2px;
+        padding-left: 20px;
+        padding-right:20px;
+        width: 247px;
+        
+    }
+
+    #graph {
+        margin-bottom: 40px;
+        width: 750px;
+        height: 340px;
+        margin-left: 10px;
+    }
+
+    #accordion{
+        padding-left: 270px;
+    }
+
+    #trivia-accordion{
+        margin-left: 10px;
+    }
+    
+    .status-task{
+        padding-left: 335px;
+    }
+    
+    .status-task-new{
+        padding-left: 307px;
+    }
+    
+    .status-task-default{
+        padding-left: 327px;
+    }
+}  
