@@ -7,12 +7,7 @@
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 		
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<!-- Google Fonts Here -->
-		<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet"> 
 		<link href="/assets/css/style.css" rel="stylesheet">
 		<!--Title here -->
 		<title>Assignment 1</title>
@@ -22,186 +17,186 @@
 			<!-- menu -->
 			<nav id="sidebar" class="navbar navbar-expand-md">
 				<div id="logo" href="/" class="d-flex align-items-center mb-4 mb-md-0 me-md-auto text-white text-decoration-none ">
-						<img class="ps-3" src="/public/assets/images/burgermenumb.jpeg" alt="logo">
-						<!-- <span class="fs-5 ps-2 text-secondary text-nowrap">Dashboard Kit</span> -->
+					<img class="ps-3" src="/public/assets/images/burgermenumb.jpeg" alt="logo">
+					<!-- <span class="fs-5 ps-2 text-secondary text-nowrap">Dashboard Kit</span> -->
 				</div>
 				<button class="pe-2 me-2 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="true" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 				</button>
 			</nav>
 		</header>
-			<main>
-				<!-- content here-->
-				<section class="d-flex mt-3"> 
-					<div class="initial-icons justify-content-between" id="icons-top">
-						<img src="/assets/images/search.png" alt="search icon">
-						<img src="/assets/images/newnotification.png" alt="notifications icon">
-						<img class="p-1" src="/assets/images/smalldivider.png" alt="notifications icon">
-					</div>
-					<div class="d-flex justify-content-between">
-						<p class="text-dark text-table p-1 mt-2">Jones Ferdinard</p>
-						<img class="me-1" id="profile" class="photo" src="/assets/images/photo.png">
-					</div>
+		<main>
+			<!-- content here-->
+			<section class="d-flex mt-3"> 
+				<div class="initial-icons justify-content-between" id="icons-top">
+					<img src="/assets/images/search.png" alt="search icon">
+					<img src="/assets/images/newnotification.png" alt="notifications icon">
+					<img class="p-1" src="/assets/images/smalldivider.png" alt="notifications icon">
+				</div>
+				<div class="d-flex justify-content-between">
+					<p class="text-dark text-table p-1 mt-2">Jones Ferdinard</p>
+					<img class="me-1" id="profile" class="photo" src="/assets/images/photo.png">
+				</div>
+				
+			</section>
+			<!-- Content - Section 1 -->
+			<section id="section1" class="row d-flex mb-3 ms-1 me-4">
+				<h1 class="fs-3">Overview</h1>
+				<div class="col border rounded mt-3 me-2 bg-white box p-2">
+					<h2 class="fs-6 text-secondary mt-3 text-center">Unresolved</h2>
+					<p class="fs-3 text-center"><strong class="number">60</strong></p>
+				</div>
+	
+				<div class="col border rounded mt-3 me-2 bg-white border-primary box p-2">
+					<h3 class="fs-6 text-primary mt-3 text-center">Overdue</h3>
+					<p class="fs-3 text-primary text-center "><strong class="number">16</strong></p>
+				</div>
+
+				<div class="col border rounded mt-3 me-2 bg-white box p-2">
+					<h4 class="fs-6 text-secondary mt-3 text-center">Open</h4>
+					<p class="fs-3 text-center"><strong class="number">43</strong></p>
+				</div>
+				
+				<div class="col border rounded mt-3 bg-white col-sm-2 box p-2">
+					<h4 class="fs-6 text-secondary mt-3 text-center">On Hold</h4>
+					<p class="fs-3 text-center"><strong class="number">64</strong></p>
+				</div>
+			</section>
+			<!-- Content - Section 2 -->
+			<section id="section2" class="container">
+				<div id="table1" class="ps-3 pe-4 bg-white border rounded ms-1"> 
+					<h1 class="mt-4 fs-4 sec-name-2">Today's trends</h1>
+					<p class="text-muted subhead sec-name-2">as of  May 2019, 09:41 PM</p>
 					
-				</section>
-				<!-- Content - Section 1 -->
-				<section id="section1" class="row d-flex mb-3 ms-1 me-4">
-					<h1 class="fs-3">Overview</h1>
-					<div class="col border rounded mt-3 me-2 bg-white box p-2">
-						<h2 class="fs-6 text-secondary mt-3 text-center">Unresolved</h2>
-						<p class="fs-3 text-center"><strong class="number">60</strong></p>
+					<div class="d-flex me-3 mb-3">
+						<p class="text-muted subhead graph-legend legend1 pe-3"><img src="/assets/images/bluedivider.png">
+							Today</p>
+						<p class="text-muted subhead legend2"><img class="pe-2"src="/assets/images/greydivider.png">Yesterday</p>
+					</div>
+					<div class="container">
+						<img  id="graph" class="mt-3 graph-mobile" src="/assets/images/full graph.png" alt="graph image">
+					</div>
+				</div>
+				<div id="table2" class="container-fluid me-2 bg-white border rounded mt-2 ms-1"> 
+					<div id="table-size" class="col-sm border-bottom mt-1">
+						<h2 class="text-secondary text-center fs-6">Resolved</h2>
+						<p class="text-center fs-5"><strong>449</strong></p>
 					</div>
 		
-					<div class="col border rounded mt-3 me-2 bg-white border-primary box p-2">
-						<h3 class="fs-6 text-primary mt-3 text-center">Overdue</h3>
-						<p class="fs-3 text-primary text-center "><strong class="number">16</strong></p>
+					<div class="col-sm border-bottom">
+						<h3 class="text-secondary text-center fs-6">Received</h3>
+						<p class="text-center fs-5"><strong>426</strong></p>
 					</div>
 
-					<div class="col border rounded mt-3 me-2 bg-white box p-2">
-						<h4 class="fs-6 text-secondary mt-3 text-center">Open</h4>
-						<p class="fs-3 text-center"><strong class="number">43</strong></p>
+					<div class="col-sm border-bottom">
+						<h4 class="text-secondary text-center fs-6"> Average first response time</h4>
+						<p class="text-center fs-5"><strong>33m</strong></p>
 					</div>
-					
-					<div class="col border rounded mt-3 bg-white col-sm-2 box p-2">
-						<h4 class="fs-6 text-secondary mt-3 text-center">On Hold</h4>
-						<p class="fs-3 text-center"><strong class="number">64</strong></p>
+
+					<div class="col-sm border-bottom">
+						<h5 class="text-secondary text-center fs-6">Average response time</h5>
+						<p class="text-center fs-5"><strong>3h 8m</strong></p>
 					</div>
-				</section>
-				<!-- Content - Section 2 -->
-				<section id="section2" class="container">
-					<div id="table1" class="ps-3 pe-4 bg-white border rounded ms-1"> 
-						<h1 class="mt-4 fs-4 sec-name-2">Today's trends</h1>
-						<p class="text-muted subhead sec-name-2">as of  May 2019, 09:41 PM</p>
-						
-						<div class="d-flex me-3 mb-3">
-							<p class="text-muted subhead graph-legend legend1 pe-3"><img src="/assets/images/bluedivider.png">
-								Today</p>
-							<p class="text-muted subhead legend2"><img class="pe-2"src="/assets/images/greydivider.png">Yesterday</p>
-						</div>
-						<div class="container">
-							<img  id="graph" class="mt-3 graph-mobile" src="/assets/images/full graph.png" alt="graph image">
-						</div>
+					<div class="col-sm">
+						<h6 class="text-secondary text-center fs-6 mt-3">Resolution within SLA</h6>
+						<p class="text-center fs-5"><strong>94%</strong></p>
 					</div>
-					<div id="table2" class="container-fluid me-2 bg-white border rounded mt-2 ms-1"> 
-						<div id="table-size" class="col-sm border-bottom mt-1">
-							<h2 class="text-secondary text-center fs-6">Resolved</h2>
-							<p class="text-center fs-5"><strong>449</strong></p>
-						</div>
-			
-						<div class="col-sm border-bottom">
-							<h3 class="text-secondary text-center fs-6">Received</h3>
-							<p class="text-center fs-5"><strong>426</strong></p>
+				</div>
+			</section>
+			<!-- Content - Section 3 -->
+			<section id="section3" class="container d-flex row">
+				<div id="unresolved-tickets" class="me-2 bg-white border rounded mt-2 ms-1 p-2 unresolved-tickets"> 
+					<div>	
+						<h2 class="mt-2 ps-2 fs-4">Unresolved tickets</h2>
+					</div>
+					<div class="flex-row d-flex justify-content-between ps-2">
+							<p class="text-secondary subhead">Group: Suppport</p>
+							<p class="text-primary text-table me-3">View all</p>
+					</div>
+					<div>
+						<div class="flex-row d-flex justify-content-between border-bottom">
+							<p class="text-table">Waiting on Feature Request</p>
+							<p class="pe-2 text-secondary text-table">4238</p>
 						</div>
 
-						<div class="col-sm border-bottom">
-							<h4 class="text-secondary text-center fs-6"> Average first response time</h4>
-							<p class="text-center fs-5"><strong>33m</strong></p>
+						<div class="flex-row d-flex justify-content-between border-bottom">
+							<p class="text-table">Awaiting Customer Response</p>
+							<p class="pe-2 text-secondary text-table">1005</p>
 						</div>
 
-						<div class="col-sm border-bottom">
-							<h5 class="text-secondary text-center fs-6">Average response time</h5>
-							<p class="text-center fs-5"><strong>3h 8m</strong></p>
+						<div class="flex-row d-flex justify-content-between border-bottom">
+							<p class="text-table">Awaiting Developer Fix</p>
+							<p class="pe-2 text-secondary text-table">914</p>
 						</div>
-						<div class="col-sm">
-							<h6 class="text-secondary text-center fs-6 mt-3">Resolution within SLA</h6>
-							<p class="text-center fs-5"><strong>94%</strong></p>
+
+						<div class="flex-row d-flex justify-content-between">
+							<p class="ps-2 mt-3 text-table">Pending</p>
+							<p class="pe-3 mt-3 text-secondary text-table">281</p>
 						</div>
 					</div>
-				</section>
-				<!-- Content - Section 3 -->
-				<section id="section3" class="container d-flex row">
-					<div id="unresolved-tickets" class="me-2 bg-white border rounded mt-2 ms-1 p-2 unresolved-tickets"> 
-						<div>	
-							<h2 class="mt-2 ps-2 fs-4">Unresolved tickets</h2>
-						</div>
-						<div class="flex-row d-flex justify-content-between ps-2">
-								<p class="text-secondary subhead">Group: Suppport</p>
-								<p class="text-primary text-table me-3">View all</p>
-						</div>
+				</div>	
+					<!-- Create TASKS section-->
+				<div id="tasks" class="me-2 bg-white border row rounded mt-2 ms-1 mb-4"> 
+					<div>
+						<h2 class="mt-3 fs-4">Tasks</h2>
+					</div>
+					<div class="flex-row d-flex justify-content-between ps-2">
+						<p class="text-secondary subhead ps-1">Today</p>
+						<p class="text-primary text-table add-icon">View all</p>
+					</div>
+
+					<!-- Create new task-->
+					<div class="d-flex justify-content-between">
+						<p class="text-table text-secondary">Create new task</p>
 						<div>
-							<div class="flex-row d-flex justify-content-between border-bottom">
-								<p class="text-table">Waiting on Feature Request</p>
-								<p class="pe-2 text-secondary text-table">4238</p>
-							</div>
-
-							<div class="flex-row d-flex justify-content-between border-bottom">
-								<p class="text-table">Awaiting Customer Response</p>
-								<p class="pe-2 text-secondary text-table">1005</p>
-							</div>
-
-							<div class="flex-row d-flex justify-content-between border-bottom">
-								<p class="text-table">Awaiting Developer Fix</p>
-								<p class="pe-2 text-secondary text-table">914</p>
-							</div>
-
-							<div class="flex-row d-flex justify-content-between">
-								<p class="ps-2 mt-3 text-table">Pending</p>
-								<p class="pe-3 mt-3 text-secondary text-table">281</p>
-							</div>
-						</div>
-					</div>	
-						<!-- Create TASKS section-->
-					<div id="tasks" class="me-2 bg-white border row rounded mt-2 ms-1 mb-4"> 
-						<div>
-							<h2 class="mt-3 fs-4">Tasks</h2>
-						</div>
-						<div class="flex-row d-flex justify-content-between ps-2">
-							<p class="text-secondary subhead ps-1">Today</p>
-							<p class="text-primary text-table add-icon">View all</p>
-						</div>
-
-						<!-- Create new task-->
-						<div class="d-flex justify-content-between">
-							<p class="text-table text-secondary">Create new task</p>
-							<div>
-							<img class="add-icon" src="/assets/images/add.png" alt="add icon">
-							</div>
-						</div>
-						<div>
-							<img class="longdivider" src="assets/images/longdivider.png">
-						</div>
-
-						<!-- Finish ticket update-->
-						<div class="d-flex container-fluid">
-							<div>
-								<img src="assets/images/circle.png" alt="selection circle icon">
-							</div>
-							<p class="text-table ms-2 row text-nowrap">Finish ticket update</p>
-							<div>
-								<img class="status-task" src="/assets/images/urgent.png" alt="urgent button">
-							</div>
-						</div>
-						<div>
-							<img class="longdivider" src="assets/images/longdivider.png">
-						</div>
-
-						<!-- Create new ticket example-->
-						<div class="d-flex container-fluid">
-							<div>
-								<img src="assets/images/circle.png" alt="selection circle icon">
-							</div>
-							<p class="text-table ms-2 row text-nowrap">Create new ticket example</p>
-							<div>
-								<img class="status-task-new" src="/assets/images/new.png" alt="urgent button">
-							</div>
-						</div>
-						<div>
-							<img class="longdivider" src="assets/images/longdivider.png">
-						</div>
-
-						<!-- Update ticket report-->
-						<div class="d-flex container-fluid">
-							<div>
-								<img src="assets/images/checked.png" alt="selection circle icon">
-							</div>
-							<p class="text-table ms-2 row text-nowrap">Update ticket report</p>
-							<div>
-								<img class="status-task-default" src="/assets/images/default.png" alt="urgent button">
-							</div>
+						<img class="add-icon" src="/assets/images/add.png" alt="add icon">
 						</div>
 					</div>
-				</section>		
-		  	</main>
-		  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+					<div>
+						<img class="longdivider" src="assets/images/longdivider.png">
+					</div>
+
+					<!-- Finish ticket update-->
+					<div class="d-flex container-fluid">
+						<div>
+							<img src="assets/images/circle.png" alt="selection circle icon">
+						</div>
+						<p class="text-table ms-2 row text-nowrap">Finish ticket update</p>
+						<div>
+							<img class="status-task" src="/assets/images/urgent.png" alt="urgent button">
+						</div>
+					</div>
+					<div>
+						<img class="longdivider" src="assets/images/longdivider.png">
+					</div>
+
+					<!-- Create new ticket example-->
+					<div class="d-flex container-fluid">
+						<div>
+							<img src="assets/images/circle.png" alt="selection circle icon">
+						</div>
+						<p class="text-table ms-2 row text-nowrap">Create new ticket example</p>
+						<div>
+							<img class="status-task-new" src="/assets/images/new.png" alt="urgent button">
+						</div>
+					</div>
+					<div>
+						<img class="longdivider" src="assets/images/longdivider.png">
+					</div>
+
+					<!-- Update ticket report-->
+					<div class="d-flex container-fluid">
+						<div>
+							<img src="assets/images/checked.png" alt="selection circle icon">
+						</div>
+						<p class="text-table ms-2 row text-nowrap">Update ticket report</p>
+						<div>
+							<img class="status-task-default" src="/assets/images/default.png" alt="urgent button">
+						</div>
+					</div>
+				</div>
+			</section>		
+		</main>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	</body>
 </html>

@@ -2,7 +2,6 @@
 /*mobile first*/
 /*I used iPhone XR (414 x 896) on Chrome Developer tools to create this version*/
 body{
-    font-family: 'Mulish', 'sans-serif';
     background-color: white;
 }
 
@@ -89,10 +88,6 @@ body{
     margin-left: -10px;
 }
 
-#accordion{
-    margin-left: 10px;
-    margin-right:4px;
-}
 
 /*desktop here*/
 /*dimension for desktop 1588 x1058 */
